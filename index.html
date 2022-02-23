@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"   />
+    <title>Cob's Seafood Emporium</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script type="text/javascript" src="addCart.js"></script> 
+</head>
+<body>
+    <nav class="col-1">
+        <a href="createAcct.html" target="_blank">View Cart</a>
+        <p>
+            <a href="index.html" target="external">Shop</a>
+        </p>
+        <p>Contact</p>
+        <p>
+            <a href="createAcct.html" target="_blank">Account</a>
+        </p>
+    </nav>
+    <div class="col-2">
+        <header class="headerBack">
+            <p style="text-align: center;
+            font-size: xx-large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:floralwhite;text-decoration:underline;">
+                Cob's Seafood Emporium
+            </p>
+        </header>
+        <main class="content">
+            <article>
+                
+                <table style="width:100%;">
+                    <tr>
+                        <td>
+                            <div class="card" id="item1">
+                                <img src="https://www.pierfishing.com/wp-content/uploads/2017/12/Sand.Sole_Trinidad_2014_3-770x480.jpg" style="width:24vh;height:16vh;" alt="Sand Sole">
+                                <div class="title">
+                                    Sand Sole
+                                </br>
+                                    $8 / lb.
+                                </div>
+                                <div>
+                                    <label>Quantity (lbs.): </label>
+                                    <select>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <button onclick="addToCart(item1)">Add to cart</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="card" id="item2">
+                                <img src="https://www.pierfishing.com/wp-content/uploads/2017/12/Sand.Sole_Trinidad_2014_3-770x480.jpg" style="width:24vh;height:16vh;" alt="Sand Sole">
+                                <div class="title">
+                                    Sand Sole
+                                </div>
+                                <div>
+                                    <label>Quantity (lbs.): </label>
+                                    <select>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <button onclick="addToCart(item2)">Add to cart</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="card" id="item3">
+                                <img src="https://www.pierfishing.com/wp-content/uploads/2017/12/Sand.Sole_Trinidad_2014_3-770x480.jpg" style="width:24vh;height:16vh;" alt="Sand Sole">
+                                <div class="title">
+                                    Sand Sole
+                                </div>
+                                <div>
+                                    <label>Quantity (lbs.): </label>
+                                    <select>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <button onclick="addToCart(item3)">Add to cart</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="card" id="item4">
+                                <img src="https://www.pierfishing.com/wp-content/uploads/2017/12/Sand.Sole_Trinidad_2014_3-770x480.jpg" style="width:24vh;height:16vh;" alt="Sand Sole">
+                                <div class="title">
+                                    Sand Sole
+                                </div>
+                                <div>
+                                    <label>Quantity (lbs.): </label>
+                                    <select>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <button onclick="addToCart(item4)">Add to cart</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="card" id="item5">
+                                <img src="https://www.pierfishing.com/wp-content/uploads/2017/12/Sand.Sole_Trinidad_2014_3-770x480.jpg" style="width:24vh;height:16vh;" alt="Sand Sole">
+                                <div class="title">
+                                    Sand Sole
+                                </div>
+                                <div>
+                                    <label>Quantity (lbs.): </label>
+                                    <select>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <button onclick="addToCart(item5)">Add to cart</button>
+                            </div>    
+                        </td>
+                        <td>
+                            <div class="card" id="item6">
+                                <img src="https://www.pierfishing.com/wp-content/uploads/2017/12/Sand.Sole_Trinidad_2014_3-770x480.jpg" style="width:24vh;height:16vh;" alt="Sand Sole">
+                                <div class="title">
+                                    Sand Sole
+                                </div>
+                                <div>
+                                    <label>Quantity (lbs.): </label>
+                                    <select>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <button onclick="addToCart(item6)">Add to cart</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table> 
+            </article>
+            <aside>
+                <div class="cart" id="cart">
+                    <div class="title">Cart</div><hr/>
+                    <div id="title"></div>
+                </div>
+                
+                <button type="button">
+                    <a href="createAcct.html" target="_blank">
+                        Checkout
+                    </a>
+                </button> 
+                <p style="font-size:xx-small;color:cadetblue;">
+                    Create an account to checkout
+                </p>
+                <p style="font-size:xx-small;color:cadetblue;">
+                    or proceed as <a href="cart.html" target="_blank">guest</a>
+                </p>
+                <div id="totalDisplay"></div>
+
+            </aside>
+        </main>
+        <footer class="footerBack">
+            <p style="font-size:xx-small;text-align:center;">
+                Cob's Seafood Emporium
+            </p>
+            <p style="font-size:xx-small;text-align:center;">
+                Cob's, LLC.
+            </p>
+            <p style="font-size:xx-small;text-align:center;">
+                1234 Main St.
+            </p>
+            <p style="font-size:xx-small;text-align:center;">
+                New York, NY, 12345
+            </p>
+        </footer>
+    </div>
+</body>
